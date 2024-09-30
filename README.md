@@ -1,4 +1,4 @@
-# TP5_DesarrolloSoftware
+# TP6_DesarrolloSoftware
 Este proyecto es una implementación de REST utilizando POSTMAN para analizar las modificaciones, además JPA (Java Persistence API) utilizando la base de datos H2 y aplicando ENVERS para tener una auditoria de los cambios en nuestra base de datos. A continuación, se detallan los pasos para descargar, configurar, y ejecutar el proyecto.
 En este proceso creamos clases genericas de Controladores y servicios. Además generamos Querys personalizadas para cada clase.
 
