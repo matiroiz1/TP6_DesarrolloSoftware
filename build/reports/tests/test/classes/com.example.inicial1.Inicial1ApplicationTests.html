@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Inicial1ApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Inicial1ApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.inicial1.html">com.example.inicial1</a> &gt; Inicial1ApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.694s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.694s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20:15:01.468 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.inicial1.Inicial1ApplicationTests]: Inicial1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:15:01.694 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.inicial1.Inicial1Application for test class com.example.inicial1.Inicial1ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-18T20:15:02.401-03:00  WARN 27084 --- [inicial1] [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/matir/.gradle/caches/modules-2/files-2.1/org.json/json/20210307/528c8df3757e8bcf151817b1d7b9b434f6aa08d5/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/matir/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-09-18T20:15:02.448-03:00  INFO 27084 --- [inicial1] [    Test worker] c.e.inicial1.Inicial1ApplicationTests    : Starting Inicial1ApplicationTests using Java 17.0.12 with PID 27084 (started by matir in C:\Desarrollo de Software\1 - CARPETA\REST\restinicial-main)
+2024-09-18T20:15:02.448-03:00  INFO 27084 --- [inicial1] [    Test worker] c.e.inicial1.Inicial1ApplicationTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-09-18T20:15:03.882-03:00  INFO 27084 --- [inicial1] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-18T20:15:04.023-03:00  INFO 27084 --- [inicial1] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 5 JPA repository interfaces.
+2024-09-18T20:15:04.991-03:00  INFO 27084 --- [inicial1] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-18T20:15:05.154-03:00  INFO 27084 --- [inicial1] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-18T20:15:05.248-03:00  INFO 27084 --- [inicial1] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-18T20:15:05.500-03:00  INFO 27084 --- [inicial1] [    Test worker] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2024-09-18T20:15:05.847-03:00  INFO 27084 --- [inicial1] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-18T20:15:05.878-03:00  INFO 27084 --- [inicial1] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-18T20:15:06.107-03:00  INFO 27084 --- [inicial1] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./testdb user=SA
+2024-09-18T20:15:06.107-03:00  INFO 27084 --- [inicial1] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-18T20:15:06.131-03:00  WARN 27084 --- [inicial1] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-18T20:15:06.525-03:00  INFO 27084 --- [inicial1] [    Test worker] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.example.inicial1.entities.Persona
+2024-09-18T20:15:06.525-03:00  INFO 27084 --- [inicial1] [    Test worker] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.example.inicial1.entities.Libro
+2024-09-18T20:15:06.525-03:00  INFO 27084 --- [inicial1] [    Test worker] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.example.inicial1.entities.Localidad
+2024-09-18T20:15:06.525-03:00  INFO 27084 --- [inicial1] [    Test worker] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.example.inicial1.entities.Domicilio
+2024-09-18T20:15:06.525-03:00  INFO 27084 --- [inicial1] [    Test worker] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.example.inicial1.entities.Autor
+2024-09-18T20:15:07.564-03:00  INFO 27084 --- [inicial1] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table autor (id bigint generated by default as identity, apellido varchar(255), biografia varchar(255), nombre varchar(255), primary key (id))
+Hibernate: create table autor_aud (id bigint not null, rev integer not null, revtype tinyint, apellido varchar(255), biografia varchar(255), nombre varchar(255), primary key (rev, id))
+Hibernate: create table domicilio (id bigint generated by default as identity, calle varchar(255), numero integer not null, primary key (id))
+Hibernate: create table domicilio_aud (id bigint not null, rev integer not null, revtype tinyint, calle varchar(255), numero integer, primary key (rev, id))
+Hibernate: create table libro (id bigint generated by default as identity, autor varchar(255), fecha integer not null, genero varchar(255), paginas integer not null, titulo varchar(255), primary key (id))
+Hibernate: create table libro_aud (id bigint not null, rev integer not null, revtype tinyint, autor varchar(255), fecha integer, genero varchar(255), paginas integer, titulo varchar(255), primary key (rev, id))
+Hibernate: create table localidad (id bigint generated by default as identity, denominacion varchar(255), primary key (id))
+Hibernate: create table localidad_aud (id bigint not null, rev integer not null, revtype tinyint, denominacion varchar(255), primary key (rev, id))
+Hibernate: create table persona (id bigint generated by default as identity, apellido varchar(255), nombre varchar(255), fk_domicilio bigint, primary key (id))
+Hibernate: create table persona_aud (id bigint not null, rev integer not null, revtype tinyint, apellido varchar(255), nombre varchar(255), fk_domicilio bigint, primary key (rev, id))
+Hibernate: create table revision_info (id integer not null, revision_date timestamp(6), primary key (id))
+Hibernate: alter table if exists persona drop constraint if exists UKtf82o8p6mim2vdcl7kh56jltw
+Hibernate: alter table if exists persona add constraint UKtf82o8p6mim2vdcl7kh56jltw unique (fk_domicilio)
+Hibernate: create sequence revision_sequence start with 1 increment by 1
+Hibernate: alter table if exists autor_aud add constraint FKr81sephxfyvqkjffreeeunf0s foreign key (rev) references revision_info
+Hibernate: alter table if exists domicilio_aud add constraint FKr2va00h51h6v43r7txxpov81 foreign key (rev) references revision_info
+Hibernate: alter table if exists libro_aud add constraint FK4w9s9iy7nnmjlyvmdh4f2dw7c foreign key (rev) references revision_info
+Hibernate: alter table if exists localidad_aud add constraint FK7ifunt3yuv3bghhcv86k1s75y foreign key (rev) references revision_info
+Hibernate: alter table if exists persona add constraint FKdvcd83wmvj0mwmbu3kyoisobn foreign key (fk_domicilio) references domicilio
+Hibernate: alter table if exists persona_aud add constraint FK3nishbkv6n49yoqu3eugomin foreign key (rev) references revision_info
+2024-09-18T20:15:07.681-03:00  INFO 27084 --- [inicial1] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-18T20:15:08.730-03:00  WARN 27084 --- [inicial1] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-18T20:15:09.476-03:00  INFO 27084 --- [inicial1] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:./testdb'
+2024-09-18T20:15:09.595-03:00  INFO 27084 --- [inicial1] [    Test worker] c.e.inicial1.Inicial1ApplicationTests    : Started Inicial1ApplicationTests in 7.593 seconds (process running for 9.639)
+Hibernate: insert into persona (apellido,fk_domicilio,nombre,id) values (?,?,?,default)
+Hibernate: select next value for revision_sequence
+Hibernate: insert into revision_info (revision_date,id) values (?,?)
+Hibernate: insert into persona_aud (revtype,apellido,fk_domicilio,nombre,rev,id) values (?,?,?,?,?,?)
+Hibernate: insert into persona (apellido,fk_domicilio,nombre,id) values (?,?,?,default)
+Hibernate: select next value for revision_sequence
+Hibernate: insert into revision_info (revision_date,id) values (?,?)
+Hibernate: insert into persona_aud (revtype,apellido,fk_domicilio,nombre,rev,id) values (?,?,?,?,?,?)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.9-rc-2</a> at 18 sep. 2024 20:15:10</p>
+</div>
+</div>
+</body>
+</html>
